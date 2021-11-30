@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    /* background-image: url("../img/background.jpg");*/
+    background-size: backgraund-origin;
+    font-family: 'Raleway', sans-serif;
+    background-color: lightgray;
+
+}
+. .main-header {
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+.carousel {
+    min-height: 400px;
+}
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background: lightgray;
+    width: 400px;
+    height: 400px;
+}
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.carousel .indicators .indicator-item {
+    background: black;
+}
+.cont {
+    width: 450px;
+    overflow: auto;
+}
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+.subtitulo {
+    margin: 0;
+    color: black;
+    display: inline;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Dancing Script';
+    text-transform: uppercase;
+}
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-70 {
+    font-size: 70px;
+}
+.material-icons.md-250 {
+    cursor: pointer;
+    font-size: 200px;
+    max-height: 100%;
+}
+::placeholder {
+    color: #999492;
+    /*font-size: 1em;*/
+}
+.modal-div {
+    border-radius: 20px;
+    background: black;
+}
+span.badge {
+    min-width: 2.3rem;
+    padding: 0 5px;
+    position: relative;
+    right: 5px;
+    top: 5px;
+    border-radius: 50%;
+}
+.textoTitulo{
+    color: blue;
+}
+.txtPrecio{
+padding: 0px;
+padding-left: 0px;
+font-size: 40px;
+font-family: 'bold';
+color: black;
+}
+.boton{
+   border-radius: 10px;
+   font-size: 100%;
+   outline: none;
+   justify-content: center;
+   text-align:center;
+   width: 70%;
+   height: 50px;
+   position: relative; 
+}
+.carrusel .prev{
+    position: absolute;
+    top: 35%;
+    left: -5%;
+    cursor: pointer;
+}
+
+.carrusel .next{
+    position: absolute;
+    top: 35%;
+    right: -5%;
+    cursor: pointer;
+}
+.slick-dots{
+    visibility: hidden;
+}
+.sidemenu{
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.navegacion{
+    position: fixed;
+    top: 8%;
+    bottom: 20%;
+    width: 60px;
+    box-sizing: initial;
+    border-left: 5px;
+    background:  rgba(0,0,0,1);
+    transition: 0.5s;
+    height: 92%;
+    overflow-x: hidden;
+    overscroll-behavior: auto contain;
+    /*margin-left: 1%;*/
+   /* box-sizing: border-box;*/
+} 
+.navegacion.open{
+  width: 300px;
+  z-index: 2;
+
+}
+
+.navegacion .ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.navegacion .ul .li{
+    position: relative;
+    width: 100%;
+}
+
+.navegacion ul li a{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+
+}
+ .navegacion ul li a .material-icons{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}
+
+.navegacion ul li a .titulo{
+    position: relative;
+    display: inline-block;
+    padding-left: 10%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 12px;
+}
+footer{
+    /*position: static ;*/
+   /* overflow:  hidden;*/
+}
+
+
+.info{
+    background-color: white;
+    width: 70%;
+    height: 70px;
+    padding-bottom: 5px;
+    /*outline: dashed 1px black;*/
+}
+.textContent{
+padding-left: 8%;
+padding-top: 3%;
+/*padding-bottom: 3%;*/
+font-family: arial black;
+}
+
+.modallogout{
+    margin-top: 10%;
+    width: 40%;
+    height: 40%;
+    background:  rgba(0,0,0,0.7);
+}
+.modallogout a{
+   margin-top: 5%;
+   width: 30%;
+   margin-right: 5%;
+   margin-left: 5%;
+   text-align: center;
+   padding: 1%;
+
+}
+.txttable{
+    text-align: right;
+    margin-right: 7%;
+    font-family: "Arial Black";
+}
+.contpadding{
+    /*margin-top:2%;*/ 
+    min-height: 600px;
+    /*margin-left: 10%;*/
+}
+.contable{
+    max-height: 100%;
+    max-width: 100%;
+    height: 70px;
+    width: 100px;
+}
