@@ -21,42 +21,42 @@
 		</li>
 		<li class="lista">
 			<a onclick="Crud()">
-				<span class="material-icons">settings</span>
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="CRUD">settings</span>
 				<span class="titulo">CRUD</span>
 			</a>		
 		</li>
 
 		<li class="lista">
 			<a>
-				<span class="material-icons">swap_horiz</span>
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="Operador Lógico">swap_horiz</span>
 				<span class="titulo">Operador Lógico</span>
 			</a>
 		</li>
 
 		<li class="lista">
 			<a>
-				<span class="material-icons">compare_arrows</span>
-				<span class="titulo">Operador Comparacion</span>
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="Operador Comparacion">compare_arrows</span>
+				<span class="titulo ">Operador Comparacion</span>
+			</a>
+		</li>
+
+		<li class="lista">
+			<a href="InnerJoin.php">
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="Inner Join">join_inner</span>
+				<span class="titulo" >Inner Join</span>
 			</a>
 		</li>
 
 		<li class="lista">
 			<a>
-				<span class="material-icons">join_inner</span>
-				<span class="titulo">Inner Join</span>
-			</a>
-		</li>
-
-		<li class="lista">
-			<a>
-				<span class="material-icons">memory</span>
-				<span class="titulo">Procedimiento Almacenado</span>
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="CRUD Procedimiento Almacenado">memory</span>
+				<span class="titulo ">Procedimiento Almacenado</span>
 			</a>
 		</li>
 		<li class="lista">
 			<a href="#modal2" class=" modal-trigger transparent">
-				<span class="material-icons">logout</span>
-				<span class="titulo">Cerrar Sesion</span>
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="Cerrar Sesion">logout</span>
+				<span class="titulo " >Cerrar Sesion</span>
 			</a>
 		</li>
 	</ul>

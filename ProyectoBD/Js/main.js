@@ -91,6 +91,12 @@ function eliminarcruderror(){
     })
 }
 
+function errorinnerjoin(){
+    M.toast({
+        html: 'Error no se puede hacer el inner join', 
+        classes:"red rounded",
+    })
+}
 
 function slide(){
     let burguer= document.querySelector('.menu');

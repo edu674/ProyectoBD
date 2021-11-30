@@ -68,8 +68,6 @@ $consultas=new Crud();
 			</div> <!-- class col s12 -->
 		</div> <!-- mainbody -->
 	</div> <!-- class row -->
-
-
 	
 </main>
  
