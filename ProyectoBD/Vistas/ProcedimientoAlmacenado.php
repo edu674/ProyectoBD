@@ -12,7 +12,7 @@ $tablas=$consultas->nombreTablas("usuario");
 		</div>
 	</div>
 	<div class="row">
-		<div class="col s10 push-s1 pull-s1">
+		<div class="col s10 push-s1 pull-s1" id="mainbody">
 			<h1 align="center">Procedimiento Almacenado</h1>
 			<br><br>
 			<table class="responsive-table">
