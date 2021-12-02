@@ -120,3 +120,10 @@ tabla2[i].selected = true;
 }
 document.fmodificacion.submit();
 }
+
+function errorlike(){
+    M.toast({
+        html: 'Error no hay registros coincidentes', 
+        classes:"red rounded",
+    })
+}

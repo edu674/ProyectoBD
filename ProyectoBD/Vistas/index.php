@@ -4,8 +4,9 @@ require("cabecero.php");
 <main style="min-height: 500px;">
 	<div class="row">
         <div class="col s10 push-s1 pull-s1" >
-            <h1 align="center">Logo</h1>
-            <h2 align="center">Eslogan</h2>
+            <img src="../img/logo.png" class="imglogo">
+            <br>
+            <h2 align="center" class="subtitulo">"Tu mejor opcion para el trabajo temporal"</h2>
             <h2 align="center">Descripción:</h2>
             <h6>El siguiente programa es una herramienta para poder manipular la base de datos de la empresa mito,
             la cual cuenta con algunas principales características tales como, la creación, la modificación, y la eliminación de datos, tal cual como un CRUD convencional, con implementación además de otras herramientas tales como la  unión de tablas (inner join), manejo de operadores lógicos, operadores de comparación además del uso de un procedimiento almacenado previamente ya creado dentro de la base de datos</h6>

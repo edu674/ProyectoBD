@@ -57,7 +57,7 @@ $consultas=new Crud();
             			 ?>
             			<td class="contable"><h6 align="center"><?php echo $buscar[$i][$x] ?></h6></td>
             		<?php }?>
-            		<td class="contable"><a href="../Controlador/Eliminar.php?id=<?php echo $buscar[$i][0] ?>" class="btn red">Eliminar</a></td>
+            		<td class="contable"><center><a href="../Controlador/Eliminar.php?id=<?php echo $buscar[$i][0] ?>" class="btn red">Eliminar</a></center></td>
             		</tr>
             	<?php  } ?>
 

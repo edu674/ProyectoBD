@@ -47,7 +47,29 @@ require "../Configuraciones/conexion.php";
     }
     return $resultado;
 
-    }        
+    }
+
+
+  public  function Like($tabla,$dato,$resultado){
+   global $conexion;
+   $sql=mysqli_query($conexion,"SELECT * FROM $tabla WHERE $dato LIKE '".$resultado."%'");
+   $resultado=mysqli_fetch_all($sql);
+   return $resultado;
+ }
+
+ public  function And($tabla,$dato,$resultado,$dato2,$resultado2){
+   global $conexion;
+   $sql=mysqli_query($conexion,"SELECT * FROM $tabla WHERE $dato LIKE '$resultado%' AND $dato2 Like'$resultado2%'");
+   $resultado=mysqli_fetch_all($sql);
+   return $resultado;
+ }       
+
+ public  function Procedure(){
+   global $conexion;
+   $sql=mysqli_query($conexion,"CALL obtenerUsuarios (1);");
+   $resultado=mysqli_fetch_all($sql);
+   return $resultado;
+ }           
 
  }
 

@@ -47,14 +47,14 @@ if (isset($_SESSION['usuario'])) {
          <div class="nav-wrapper"> 
         <div class="container">
            <ul class="brand-logo">
-           <li><img src="../img/logo5.png"  style="max-height: 64px; height: 100%;"></li>
+           <li><img src="../img/logo.png"  style="max-height: 64px; height: 100%;"></li>
            </ul> 
             <a href="" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons md-36">menu</i></a>
             <!-- nav var principal -->
             <ul class="right hide-on-med-and-down" id="nav-mobile">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="index.php">Proposito del Sistema</a></li>
-                <li><a href="index.php">¿A quien va dirigido?</a></li>
+                <li><a href="pagina1.php">Proposito del Sistema</a></li>
+                <li><a href="pagina2.php">¿A quien va dirigido?</a></li>
                 <li><a href="<?php echo $usuario?>" class=" modal-trigger transparent " name="IniciarSesion"><i class="material-icons md-36">account_circle</i></a></li>
             </ul>
 
@@ -64,15 +64,15 @@ if (isset($_SESSION['usuario'])) {
   <!-- sidenav responsive -->
    <ul class="sidenav" id="menu-responsive" >
         <div class="user-view">
-           <div class="background"><img src="../img/background5.jpg"></div>
+           <div class="background"><img src="../Img/banner.jpg"></div>
             <div class="center-align"><a href="<?php echo $usuario ?>" class=" modal-trigger transparent"><i class="material-icons black-text md-70 center-aling">account_circle</i></a>
             <span class="black-text name"><?php echo $user ?></span>
             <span class="black-text email"><?php echo $correo ?></span>
             </div>
         </div>
             <li><a href="index.php">Inicio<i class="material-icons md-36">home</i></a></li>
-            <li><a href="">Proposito del Sistema<i class="material-icons md-36">book</i></a></li>
-            <li><a href="">¿A quien va dirigido?<i class="material-icons md-36">person_search</i></a></li>
+            <li><a href="pagina1.php">Proposito del Sistema<i class="material-icons md-36">book</i></a></li>
+            <li><a href="pagina2.php">¿A quien va dirigido?<i class="material-icons md-36">person_search</i></a></li>
 
 
     </ul>

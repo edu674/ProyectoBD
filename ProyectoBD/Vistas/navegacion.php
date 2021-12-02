@@ -27,14 +27,14 @@
 		</li>
 
 		<li class="lista">
-			<a>
+			<a href="OperadorLogico.php">
 				<span class="material-icons tooltipped" data-position="right" data-tooltip="Operador Lógico">swap_horiz</span>
 				<span class="titulo">Operador Lógico</span>
 			</a>
 		</li>
 
 		<li class="lista">
-			<a>
+			<a href="OperadorComparacion.php">
 				<span class="material-icons tooltipped" data-position="right" data-tooltip="Operador Comparacion">compare_arrows</span>
 				<span class="titulo ">Operador Comparacion</span>
 			</a>
@@ -48,8 +48,8 @@
 		</li>
 
 		<li class="lista">
-			<a>
-				<span class="material-icons tooltipped" data-position="right" data-tooltip="CRUD Procedimiento Almacenado">memory</span>
+			<a href="ProcedimientoAlmacenado.php">
+				<span class="material-icons tooltipped" data-position="right" data-tooltip="Procedimiento Almacenado">memory</span>
 				<span class="titulo ">Procedimiento Almacenado</span>
 			</a>
 		</li>
