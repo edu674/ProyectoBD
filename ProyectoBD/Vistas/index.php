@@ -11,7 +11,7 @@ require("cabecero.php");
             <h6>El siguiente programa es una herramienta para poder manipular la base de datos de la empresa mito,
             la cual cuenta con algunas principales características tales como, la creación, la modificación, y la eliminación de datos, tal cual como un CRUD convencional, con implementación además de otras herramientas tales como la  unión de tablas (inner join), manejo de operadores lógicos, operadores de comparación además del uso de un procedimiento almacenado previamente ya creado dentro de la base de datos</h6>
             <h2 align="center">¿A quien va Dirigido?</h2>
-            <h6>El programa esta dirigido a la parte de administracion de quien manipulara el sistema, pues este al contar con un entorno amigable podra ejecutar consultas de SQL sin la necesidad de tener conocimientos en la creacion y manejo de Scripts SQL por lo que lo hace apto para cualquier persona encargada de la manipulacion de datos dentro de la base de datos </h6>
+            <h6>El programa está dirigido a la parte de administración de quien manipulará el sistema, pues este al contar con un entorno amigable podrá ejecutar consultas de SQL sin la necesidad de tener conocimientos en la creación y manejo de Scripts SQL por lo que lo hace apto para cualquier persona encargada de la manipulación de datos dentro de la base de datos </h6>
 
         </div>
     </div>

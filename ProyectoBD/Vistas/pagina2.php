@@ -8,7 +8,7 @@ require("cabecero.php");
  				<center>
  					<h1>¿A quien va dirigido?</h1>
  					<div>
- 						<p>El sistema esta dirigido para los encargados del area administrativa de almecenar informacion, al contar con un sistema completamnete amigable la manipulacion de informacion es muy sencilla de hacer pues no se requier tener conocimientos en ningun lenguaje de programacion ni tampoco en SQL  </p>
+ 						<p>El sistema está dirigido para los encargados del área administrativa de almacenar información, al contar con un sistema completamente amigable la manipulación de información es muy sencilla de hacer pues no se requiere tener conocimientos en ningún lenguaje de programación ni tampoco en SQL, facilitando la optimización de los recursos de la empresa, dando así un mejor rendimiento  </p>
  					</div>
  				</center>
  				
